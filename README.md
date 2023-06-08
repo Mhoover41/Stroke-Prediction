@@ -1,5 +1,7 @@
 # Prediction of Stroke Using Machine Learning
   - Melissa Hoover
+  - Email:  Hoovermissy@yahoo.com
+  - LinkedIn: https://www.linkedin.com/in/melissajhoover/
   - June 2023
 
 ## Project Description
