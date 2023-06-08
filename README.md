@@ -7,4 +7,4 @@ This dataset is used to predict whether a patient is likely to get stroke based 
 
 Data Source: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
 
-Data Link: healthcare-dataset-stroke-data.csv
+Data Link: [healthcare-dataset-stroke-data.csv](https://github.com/Mhoover41/Stroke-Prediction/files/11501796/healthcare-dataset-stroke-data.csv)
