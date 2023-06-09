@@ -40,3 +40,21 @@ Note: "Unknown" in smoking_status means that the information is unavailable for 
 ![avg gluclose level hist and boxplot](https://github.com/Mhoover41/Stroke-Prediction/assets/127150137/ac0fb0f0-93a2-4611-a602-3b1702ed2749)
 
 - This is right skewed. The maximum average glucose level is 271. The mean is 106 and median is 92. There is 12.3% outliers on the high side. Since this is a signtificant amount I don't want to lose that much data so I will leave the outliers in place.
+
+# Explanatory Analysis
+## Key Questions:
+1. What is correlated the most with Stroke occurances?  Age has the highest correlation with Stroke but it is still low.  
+
+2. Is Stroke more likely to occur with age and hypertension?  More strokes occur with high age and hypertension. 
+
+3. Is the type of work correlated with higher incidences of Stroke?  Private work type has the most strokes. 
+
+# Machine Learning Models used:
+- KNN
+- Random Forest
+- Logistic Regression
+
+# Models Evaluated and Results: 
+
+# Recommendations: 
+## Model Recommended: 
