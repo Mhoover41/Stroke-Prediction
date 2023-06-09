@@ -30,6 +30,8 @@ Data Link: [healthcare-dataset-stroke-data.csv](https://github.com/Mhoover41/Str
 Note: "Unknown" in smoking_status means that the information is unavailable for this patient
 
 # Exploratory Analysis
+- During the exploratory data analysis, a boxplot and histogram was visualized for each numeric datatype column.
+- This gave a good baseline for all of the numeric and categorical columns for univariate EDA.
 
 
 
