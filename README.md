@@ -27,4 +27,6 @@ Data Link: [healthcare-dataset-stroke-data.csv](https://github.com/Mhoover41/Str
 
 Note: "Unknown" in smoking_status means that the information is unavailable for this patient
 
-![image 3](https://github.com/Mhoover41/Stroke-Prediction/assets/127150137/07f89766-6e36-4e53-b378-e74a2f7f1b2f)
+![OIP](https://github.com/Mhoover41/Stroke-Prediction/assets/127150137/966e5a72-a867-4534-b655-9dc592dc12ab)
+
+
