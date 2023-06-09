@@ -36,3 +36,7 @@ Note: "Unknown" in smoking_status means that the information is unavailable for 
 ![age hist and boxplot](https://github.com/Mhoover41/Stroke-Prediction/assets/127150137/57fba073-a43e-44c7-8d25-cbd3f18e7433)
 
 - There are no outliers and the median Age is 45.
+
+![avg gluclose level hist and boxplot](https://github.com/Mhoover41/Stroke-Prediction/assets/127150137/ac0fb0f0-93a2-4611-a602-3b1702ed2749)
+
+- This is right skewed. The maximum average glucose level is 271. The mean is 106 and median is 92. There is 12.3% outliers on the high side. Since this is a signtificant amount I don't want to lose that much data so I will leave the outliers in place.
