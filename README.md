@@ -33,5 +33,6 @@ Note: "Unknown" in smoking_status means that the information is unavailable for 
 - During the exploratory data analysis, a boxplot and histogram was visualized for each numeric datatype column.
 - This gave a good baseline for all of the numeric and categorical columns for univariate EDA.
 
+![age hist and boxplot](https://github.com/Mhoover41/Stroke-Prediction/assets/127150137/57fba073-a43e-44c7-8d25-cbd3f18e7433)
 
-
+- There are no outliers and the median Age is 45.
