@@ -44,10 +44,13 @@ Note: "Unknown" in smoking_status means that the information is unavailable for 
 # Explanatory Analysis
 ## Key Questions:
 1. What is correlated the most with Stroke occurances?  Age has the highest correlation with Stroke but it is still low.  
+![barplots](https://github.com/Mhoover41/Stroke-Prediction/assets/127150137/9477c76f-5310-4a9b-873a-6503dd9ce4c2)
 
-2. Is Stroke more likely to occur with age and hypertension?  More strokes occur with high age and hypertension. 
+2. Is Stroke more likely to occur with age and hypertension?  More strokes occur with higher ages but hypertension did not change much between no stroke and stroke.
+![hypertension and age barplot](https://github.com/Mhoover41/Stroke-Prediction/assets/127150137/16f97ad1-62b1-4d83-bca9-c477092765d8)
 
 3. Is the type of work correlated with higher incidences of Stroke?  Private work type has the most strokes. 
+![worktype and stroke hist](https://github.com/Mhoover41/Stroke-Prediction/assets/127150137/8f08302a-b9ac-4581-bab4-8405e06dcf50)
 
 # Machine Learning Models used:
 - KNN
