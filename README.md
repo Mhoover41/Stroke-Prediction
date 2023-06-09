@@ -4,6 +4,8 @@
   - LinkedIn: https://www.linkedin.com/in/melissajhoover/
   - June 2023
 
+![OIP](https://github.com/Mhoover41/Stroke-Prediction/assets/127150137/966e5a72-a867-4534-b655-9dc592dc12ab)
+
 ## Project Description
 This dataset is used to predict whether a patient is likely to get stroke based on the input parameters like gender, age, various diseases, and smoking status. Each row in the data provides relavant information about the patient.
 
@@ -27,6 +29,7 @@ Data Link: [healthcare-dataset-stroke-data.csv](https://github.com/Mhoover41/Str
 
 Note: "Unknown" in smoking_status means that the information is unavailable for this patient
 
-![OIP](https://github.com/Mhoover41/Stroke-Prediction/assets/127150137/966e5a72-a867-4534-b655-9dc592dc12ab)
+# Exploratory Analysis
+
 
 
