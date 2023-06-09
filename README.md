@@ -26,3 +26,5 @@ Data Link: [healthcare-dataset-stroke-data.csv](https://github.com/Mhoover41/Str
 12) stroke: 1 if the patient had a stroke or 0 if not
 
 Note: "Unknown" in smoking_status means that the information is unavailable for this patient
+
+![image 2](https://github.com/Mhoover41/Stroke-Prediction/assets/127150137/ba2b1ad1-4306-4469-9e7f-3140f3bd9933)
