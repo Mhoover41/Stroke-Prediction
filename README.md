@@ -61,5 +61,5 @@ Note: "Unknown" in smoking_status means that the information is unavailable for 
 ## Model Recommended: 
 For this business problem, we want to look at F1 score and recall mostly. This is an extremely unbalanced class so accuracy will not be a good metric. Recall in terms of stroke diagnosis would be the percentage of patients who actually have a stroke and are correctly identified by the model. Recall is important metric because missing a stroke case can have serious consequence for the patient's health and recovery.
 
-Overall KNN with Feature Engineering gave the best results with the highest F1 score of our positive class (Stroke). It also had the highest Recall for the positive class and the lowest False Positives. It did reduce the False Negatives as well.
+Overall Random Forest with Under Sampling gave the best results with the lowest False Negatives (Type II Errors) at 15%. The F1 score of our positive class (Stroke) was 23%. Accuracy was 72%. It also had the highest Recall for the positive class of 85%.
 
