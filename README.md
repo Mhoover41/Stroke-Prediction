@@ -68,6 +68,6 @@ For this business problem, we want to look at F1 score and recall mostly. This i
 Overall Random Forest with Under Sampling gave the best results with the lowest False Negatives (Type II Errors) at 15%. The F1 score of our positive class (Stroke) was 23%. Accuracy was 72%. It also had the highest Recall for the positive class of 85%.
 
 ## Best Model Metrics: 
-
+![Best Model Metrics](https://github.com/Mhoover41/Stroke-Prediction/assets/127150137/e561d322-02e6-4055-b12c-0fda24abd6fc)
 
 
