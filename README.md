@@ -57,6 +57,10 @@ Note: "Unknown" in smoking_status means that the information is unavailable for 
 - Random Forest
 - Logistic Regression
 
+- I also tried each model with and without PCA.  PCA did not improve the performance of any of the models.  
+- I did Feature Engineering with each of the models as well and that did not improve model performance.
+- I did Under Sampling with each model as well and this is what gave me the best results with each Model. 
+
 # Recommendations: 
 ## Model Recommended: 
 For this business problem, we want to look at F1 score and recall mostly. This is an extremely unbalanced class so accuracy will not be a good metric. Recall in terms of stroke diagnosis would be the percentage of patients who actually have a stroke and are correctly identified by the model. Recall is important metric because missing a stroke case can have serious consequence for the patient's health and recovery.
