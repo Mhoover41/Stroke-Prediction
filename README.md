@@ -43,31 +43,40 @@ Note: "Unknown" in smoking_status means that the information is unavailable for 
 
 # Explanatory Analysis
 ## Key Questions:
-1. What is correlated the most with Stroke occurances?  Age has the highest correlation with Stroke but it is only 25%.  
+1. What is correlated the most with stroke occurances?  Age has the highest correlation with stroke but it is only 25%.  
 
+![Heatmap](https://github.com/Mhoover41/Stroke-Prediction/assets/127150137/c2f7b74a-7241-450a-a790-99539c760d59)
 
 2. Is Stroke more likely to occur with age and hypertension?  More strokes occur with higher ages. Hypertension does not appear to be correlated with stroke.
+
 ![Age by Hypertensin with Stroke](https://github.com/Mhoover41/Stroke-Prediction/assets/127150137/28dcfcbf-e4aa-4156-9f19-c750e1db1b59)
 
-3. Is the type of work correlated with higher incidences of Stroke?  Private work type has the most strokes. 
+3. Which type of work results with higher incidences of stroke?  Private work type has the most strokes. 
+
 ![Stroke by WorkType](https://github.com/Mhoover41/Stroke-Prediction/assets/127150137/eed12cfc-f622-4d59-9bcd-971e414d6d72)
+
+4.  Is Average Glucose Level correlated with Stroke?  It has a low correlation but the graph shows that higher Average Glucose Levels results in more strokes.
+
+![Avg Glucose Level with Stroke](https://github.com/Mhoover41/Stroke-Prediction/assets/127150137/eea8174e-5fa0-4665-932e-166349542395)
+
 
 # Machine Learning Models used:
 - KNN
 - Random Forest
 - Logistic Regression
 
-- I also tried each model with and without PCA.  PCA did not improve the performance of any of the models.  
-- I did Feature Engineering with each of the models as well and that did not improve model performance.
-- I did Under Sampling with each model as well and this is what gave me the best results with each Model. 
+    - I also tried each model with and without PCA.  PCA did not improve the performance of any of the models.  
+    - I did feature engineering with each of the models as well and that did not improve model performance.
+    - I did under sampling with each model as well and this is what gave me the best results with each model. 
 
 # Recommendations: 
 ## Model Recommended: 
 For this business problem, we want to look at F1 score and recall mostly. This is an extremely unbalanced class so accuracy will not be a good metric. Recall in terms of stroke diagnosis would be the percentage of patients who actually have a stroke and are correctly identified by the model. Recall is important metric because missing a stroke case can have serious consequence for the patient's health and recovery.
 
-Overall Random Forest with Under Sampling gave the best results with the lowest False Negatives (Type II Errors) at 18%. The F1 score of our positive class (Stroke) was 22%. Accuracy was 71%. It also had the highest recall on the positive class of 82%.
+- Overall Random Forest with Under Sampling gave the best results with the lowest False Negatives (Type II Errors) at 18%. The F1 score of our positive class (Stroke) was 22%. Accuracy was 71%. It also had the highest recall on the positive class of 82%.
 
 ## Best Model Metrics: 
+
 ![Best Metrics](https://github.com/Mhoover41/Stroke-Prediction/assets/127150137/9e872f7d-b29c-4d08-beac-ba23f539a406)
 
 
