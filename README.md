@@ -33,24 +33,24 @@ Note: "Unknown" in smoking_status means that the information is unavailable for 
 - During the exploratory data analysis, a boxplot and histogram was visualized for each numeric datatype column.
 - This gave a good baseline for all of the numeric and categorical columns for univariate EDA.
 
-
+![Age Hist and Box plot](https://github.com/Mhoover41/Stroke-Prediction/assets/127150137/914d2a9b-aafd-4970-9437-731fa7811f58)
 
 - There are no outliers and the median Age is 45.
 
-
+![Avg Glucose Hist and Box Plot](https://github.com/Mhoover41/Stroke-Prediction/assets/127150137/0072566f-11c8-403f-8bce-174c5ada132a)
 
 - This is right skewed. The maximum average glucose level is 271. The mean is 106 and median is 92. There is 12.3% outliers on the high side. Since this is a signtificant amount I don't want to lose that much data so I will leave the outliers in place.
 
 # Explanatory Analysis
 ## Key Questions:
-1. What is correlated the most with Stroke occurances?  Age has the highest correlation with Stroke but it is still low.  
+1. What is correlated the most with Stroke occurances?  Age has the highest correlation with Stroke but it is only 25%.  
 
 
-2. Is Stroke more likely to occur with age and hypertension?  More strokes occur with higher ages but hypertension did not change much between no stroke and stroke.
-
+2. Is Stroke more likely to occur with age and hypertension?  More strokes occur with higher ages. Hypertension does not appear to be correlated with stroke.
+![Age by Hypertensin with Stroke](https://github.com/Mhoover41/Stroke-Prediction/assets/127150137/28dcfcbf-e4aa-4156-9f19-c750e1db1b59)
 
 3. Is the type of work correlated with higher incidences of Stroke?  Private work type has the most strokes. 
-
+![Stroke by WorkType](https://github.com/Mhoover41/Stroke-Prediction/assets/127150137/eed12cfc-f622-4d59-9bcd-971e414d6d72)
 
 # Machine Learning Models used:
 - KNN
@@ -68,6 +68,6 @@ For this business problem, we want to look at F1 score and recall mostly. This i
 Overall Random Forest with Under Sampling gave the best results with the lowest False Negatives (Type II Errors) at 18%. The F1 score of our positive class (Stroke) was 22%. Accuracy was 71%. It also had the highest recall on the positive class of 82%.
 
 ## Best Model Metrics: 
-
+![Best Metrics](https://github.com/Mhoover41/Stroke-Prediction/assets/127150137/9e872f7d-b29c-4d08-beac-ba23f539a406)
 
 
