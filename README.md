@@ -77,6 +77,6 @@ For this business problem, we want to look at F1 score and recall mostly. This i
 
 ## Best Model Metrics: 
 
-![Best Metrics](https://github.com/Mhoover41/Stroke-Prediction/assets/127150137/9e872f7d-b29c-4d08-beac-ba23f539a406)
+![Revised Final Metric](https://github.com/Mhoover41/Stroke-Prediction/assets/127150137/37b3e77d-e3b6-4e91-b16d-2fb183a010b3)
 
 
