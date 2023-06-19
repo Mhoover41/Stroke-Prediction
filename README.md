@@ -73,10 +73,10 @@ Note: "Unknown" in smoking_status means that the information is unavailable for 
 ## Model Recommended: 
 For this business problem, we want to look at F1 score and recall mostly. This is an extremely unbalanced class so accuracy will not be a good metric. Recall in terms of stroke diagnosis would be the percentage of patients who actually have a stroke and are correctly identified by the model. Recall is important metric because missing a stroke case can have serious consequence for the patient's health and recovery.
 
-- Overall Logistic Regression with Under Sampling gave the best results with the lowest False Negatives (Type II Errors) at 19%. The F1 score of our positive class (Stroke) was 24%. Accuracy was 74%. It also had the highest recall on the positive class of 81%.
+- Overall Random Forest with Under Sampling gave the best results with the lowest False Negatives (Type II Errors) at 18%. The F1 score of our positive class (Stroke) was 21%. Accuracy was 69%. It also had the highest recall on the positive class of 82%.
 
 ## Best Model Metrics: 
 
-![Revised Final Metric](https://github.com/Mhoover41/Stroke-Prediction/assets/127150137/37b3e77d-e3b6-4e91-b16d-2fb183a010b3)
+![final metrics 6 19](https://github.com/Mhoover41/Stroke-Prediction/assets/127150137/53ffbfbd-309c-4590-a897-07a726f7fc93)
 
 
